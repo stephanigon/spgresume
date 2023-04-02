@@ -1,0 +1,25 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+/* Basic */
+
+	body,h1 {
+		font-family: "Montserrat", sans-serif;
+		background: #e8e8e8;
+  }
+
+  a {
+  	padding:6px 24px
+  }
+
+/* Image */
+
+	img {
+		border-radius: 2%;
+		margin-bottom: 2%;
+	}
+  
+  footer a {
+    margin: 0%;
+  }
+

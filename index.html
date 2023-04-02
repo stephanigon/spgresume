@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Stephani Gonzalez Resume</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link href="/your_path_to_version_6_files/css/brands.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+</head>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center" id="dropdown">
+    <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+    <img src="images/ariel.jpg" style="width:30%;">
+    <img src="images/dexter2.jpg" style="width:30%;">
+    <img src="images/dad.jpg" style="width:30%;">
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>Stephani Gonzalez</b></h1>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="images/danger.jpg" style="width:98%">
+    <img src="images/kv3.jpg" style="width:98%">
+    <img src="images/lemureat.jpg" style="width:98%">
+    <img src="images/caitlin.jpg" style="width:98%">
+    <img src="images/toph.jpg" style="width:98%">
+    <img src="images/carla.jpg" style="width:98%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/bee.jpg" style="width:98%">
+    <img src="images/mossy.jpg" style="width:98%">
+    <img src="images/dam.jpg" style="width:98%">
+    <img src="images/rvflight.jpg" style="width:98%">
+    <img src="images/abbey.jpg" style="width:98%">
+    <img src="images/babylemur.jpg" style="width:98%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/spidermonkey.jpg" style="width:98%">
+    <img src="images/destiny.jpg" style="width:98%">
+    <img src="images/potsie.jpg" style="width:98%">
+    <img src="images/squirrel.jpg" style="width:98%">
+    <img src="images/abilene2.jpg" style="width:98%">
+    <img src="images/valkyrie.jpg" style="width:98%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <a href="https://www.instagram.com/ayesojourn/"><i class="fa-brands fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://www.tiktok.com/@ayesojourn"><i class="fa-brands fa-tiktok w3-hover-opacity"></i></a>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
